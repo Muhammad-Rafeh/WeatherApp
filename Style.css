@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100% ;
+}
+.height{
+    height: 100%;
+}
+.bg-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("../assets/Day1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    background-color: #464646;
+    min-height: 100vh;
+    
+    /* height: 1000px; */
+
+
+}
+.bg-img2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("../assets/Night2.jpg");
+    /* background-image: url("../assets/Night1.jpg"); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    
+    min-height: 100vh;
+    /* height: 1000px; */
+}
+.temp {
+    font-size: 75px;
+    color: white;
+    border: black;
+    font-weight: 450;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*filter: brightness(100%);*/
+}
+
+.cityname{
+    font-size: 30px;
+    font-weight: 450;
+    color: white;
+    /* border: black; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top : 30px
+}
+.search {
+    width: 80%;
+    margin: 20px;
+    /* padding-left: 10px ; */
+    padding: 3px;
+    padding-left: 10px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: white;
+}
+::placeholder {
+    color: white;
+    opacity : 1 ;
+    padding-left: 5px;
+}
+input:focus {
+    border-radius: 15px;
+    outline : none;
+   background-color: black;
+    
+}
+input {
+    transition: ease-in-out, background-color .2s ease-in-out;
+}
+.date {
+    font-size: 10px;
+    color: white;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.sunimg {
+    width : 35px;
+    margin-top: 35px;
+
+}
+.Haze {
+    content: url("../assets/Fog2.png");
+    width : 35px;
+    margin-top: 35px;
+    filter: grayscale(100%);
+    margin-left: auto;
+    margin-right: auto;
+}
+.Rain {
+    content: url("../assets/Rain2.png") ;
+    width :35px;
+    margin-top: 35px;
+    filter: grayscale(100%);
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.Drizzle{
+    content: url("../assets/Rain2.png") ;
+    width :35px;
+    margin-top: 35px;
+    filter: grayscale(100%);
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.Clear {
+    content: url("../assets/sun3.png");
+    width : 35px;
+    margin-top: 35px;
+    filter: grayscale(100%);
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+.Fog {
+    content: url("../assets/Fog2.png");
+    width : 35px;
+    margin-top: 35px;
+    filter: grayscale(100%);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.Clouds {
+    content: url("../assets/Clouds2.png");
+    width : 35px;
+    filter: grayscale(100%);
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Smoke {
+    content: url("../assets/Fog2.png");
+    width: 35px;
+    margin-top: 35px;
+    filter: grayscale(100%);
+    margin-left: auto;
+    margin-right: auto;
+}
+.float {
+    float: left;
+}
+.margin {
+    margin-top: 70px;
+    
+}
+
+.bottomStats {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    padding-bottom : 50px;
+    float: none;
+}
+.cityName_temp_adjustment{
+    display: flex;
+   
+    flex-direction: column;
+
+    
+    overflow: hidden;
+}
+
+.grayscale { filter: grayscale(100%); }
+
+/* making burger and the chart responsive and griding them properly */
+
+/* .flex-chart-burgur {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-basis: content;
+} */
+.burgur-flex {
+    /* flex : 20% ;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 20px; */
+    
+float : right ;
+width : 10% ;
+    
+    
+}
+
+
+/* navbar */
+
+.nav-burgur{
+    float: right ;
+    margin : 10px 10px 0 0 ;
+}
+
+.nav-burgur div {
+    width: 50px ;
+    height : 5px ;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 1px;
+    background-color : rgb(253, 144, 1, 0.5);
+}
